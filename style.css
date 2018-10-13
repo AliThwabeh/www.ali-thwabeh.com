@@ -1,0 +1,166 @@
+*{
+	background-color: #2B2B2B;
+	text-align: center;
+}
+
+a{
+	background: none;
+	text-decoration: none;
+	color: inherit;
+}
+
+ul{
+	font-size: 60px;
+	background: none;
+	padding-bottom: 200px;
+}
+
+li{
+	background: none;
+	display: inline-block;
+	padding-right: 25px;
+	padding-top: 5px;
+	padding-bottom: 100px;
+
+}
+
+h2{
+	margin-top: 35px;
+	margin-bottom: 10px;
+	background: none;
+
+
+}
+
+h3{
+
+	background: none;
+
+}
+
+
+#big_wrapper {
+	width: center;
+	background-image: url("images/ali2.jpg");
+	background-position: top;
+	background-attachment: fixed;
+	background-position: bottom padding-left;
+	font-size: 90px;
+	color: #FFFFFF;
+	background-color: #9F9F9D;
+	margin: 0 auto;
+	margin-top: 5px;
+	margin-bottom: 5px;
+	height: 450px;
+	padding: 10px;
+	padding-top: 20px;
+	padding-left: 0px;
+	padding-bottom: 0px;
+}
+
+#website_header1{ 
+	background-image: url("images/ali3.jpg");
+	background-position: top;
+	background-attachment: fixed;
+	background-position: bottom padding-left;
+	font-size: 50px;
+	color: #FFFFFF;
+	background-color: #515D67;
+	margin: 0 auto;
+	margin-top: 5px;
+	height: 500px;
+	padding: 25px;
+	padding-top: 20px;
+	padding-left: 0px;
+	padding-bottom: 0px;
+	width: 70%;
+	float: left;
+}
+
+#a4{
+	color: #FFFFFF;
+	background-image: url("images/ali4.jpg");
+	background-position: top;
+	background-attachment: fixed;
+	background-position: bottom padding-left;
+	margin-top: 5px;
+	padding-top: 80px;
+	height: 500px;
+	font-size: 70px;
+	text-align: center;
+	float: right;
+	width: 100%
+}
+
+.color{
+	margin-top: 0 auto;
+	color: #FFFFFF;
+
+}
+
+#website_header2{
+	text-align: center;
+	background-image: url("images/ali5.jpg");
+	background-position: top;
+	background-attachment: fixed;
+	background-position: bottom padding-left;
+	border: inset 8px #7F7B78;
+	height: 60px;
+	padding: 20px;
+	padding-bottom: 10px;
+	padding-top: 5px;
+	padding-right: 0px;
+	padding-left: 0px;
+	margin: 0;
+	margin-bottom: 5px;
+	margin-top: 5px;
+	width: 1320px;
+	background-color: #7F7B78;
+	color: #FFFFFF;
+	font-size: 50PX;
+	float: left;	
+}
+
+
+#website_header3{
+	background-image: url("images/ali6.jpg");
+	background-position: top;
+	background-attachment: fixed;
+	background-position: bottom padding-left;
+	padding-top: 80px;
+	padding-bottom: 85PX;
+	color:  #FFFFFF;
+	border: solid 7px #5C5C5C;
+	width: 26%;
+	float: right;
+	height: 50%;
+	margin-bottom: 5px;
+	margin-top: 5px;
+
+}
+
+#website_header4{
+	background-image: url("images/ali6.jpg");
+	background-position: top;
+	background-attachment: fixed;
+	background-position: bottom padding-left;
+	padding-top: 85px;
+	padding-bottom: 85px;
+	color:  #FFFFFF;
+	border: solid 7px #5C5C5C;
+	width: 26%;
+	float: right;
+	height: 50%;
+	margin-bottom: 5px;
+}
+
+
+#images{
+	background-image: url("images/ali.jpg");
+	height: 600px;
+	float: left;
+	width: 100%;
+
+
+}
+
