@@ -1,0 +1,402 @@
+/*
+    Theme Name:HTML5;
+    Date: March 2018;
+    Version: 1.0;
+    Author: Ali Thwabeh;
+*/
+
+#h1 a:hover, #h1 a:active{
+   color:red;
+    text-shadow: 1px 1px#000305;
+}
+
+#h1{
+	text-shadow: 1px  1px #000305;
+	font-family: sans-serif;
+	text-align: center;
+	font-size: 50px;
+	margin-bottom: -90px;
+	margin-top: -10px;
+	margin-left: -90px;
+}
+
+
+body{
+	background-image: url("images/ali7.jpg");
+	font-size: 90%; /* base font-size = 14px */
+	font-family: Arial, 'Lucida sans Unicode';
+	line-height: 2.0;
+	text-align-last;
+
+}
+
+a:link, a:visited { color: #202441 ;}
+a:hover, a:active { color: #f58233 ;}
+
+a{
+	display: inline-block;
+	text-decoration: none;
+}
+
+.body{
+	margin: 10px auto;
+	width: 70%;
+	clear: both;
+
+}
+
+
+/*--------MAIN HEADER-----------*/
+
+.mainheader img{
+	width: 120%;
+
+}
+
+.mainheader nav {
+	color: #000305;
+	background-color:#f58233;
+	border-radius: 10px;
+	webkit-border-radius: 10px;
+	moz-border-radius: 10px;
+}
+
+.mainheader nav ul {
+	font-size: 20px;
+	text-align: center;
+	list-style: none;
+	margin: 0 auto;
+}
+
+.mainheader nav ul li {
+	display: inline;
+}
+
+.mainheader a:link, .mainheader a:visited{
+    color: white;
+    padding: 10px  40px;
+    display: inline-block;
+ }
+
+.mainheader a:hover, .mainheader a:active{
+    color: white;
+    background-color: #8c8c8c;
+    text-shadow: 1px 1px #f58233;
+}
+
+
+
+
+/*-----------------MAIN CONTENT--------------------*/
+
+.top-content{
+	background-color: #fff;
+	padding: 3%;
+	margin-top: 3%;
+	border-radius: 10px;
+	webkit-border-radius: 10px;
+	moz-border-radius: 10px;
+}
+
+.post-infot{
+	font-size: 90%;
+	color: #8c8c8c;
+	font-style: inherit;
+	margin-top: -15px;
+}
+
+.post-content{
+	display: block;
+}
+
+
+
+/*-----------------SIDE BAR--------------------*/
+
+.maincontent{
+	float: left;
+	width: 70%;
+
+}
+
+
+.theSidebar{
+	font-size: 20px;
+	text-align:center; 
+	width: 22%;
+	margin: 2% 0 0 2%;
+	float: left;
+	padding: 2%;
+	background-color: #fff;
+	border-radius: 10px;
+	webkit-border-radius: 10px;
+	moz-border-radius: 10px;
+}
+
+.theSidebar  h1{
+	margin-top: 5px;
+	font-size: 20px;
+	text-align: center;
+	margin-bottom: 5px;
+}
+
+.theSidebar p{
+	font-size: 90%;
+	color: #8c8c8c;
+	font-style: inherit;
+	margin-top: -5px;
+}
+
+.theSecondSidebar{
+	width: 22%;
+	margin: 2% 0 0 2%;
+	float: left;
+	padding: 2%;
+	background-color: #fff;
+	border-radius: 10px;
+	webkit-border-radius: 10px;
+	moz-border-radius: 10px;
+}
+
+.theThirdSidebar{
+	width: 22%;
+	margin: 2% 0 0 2%;
+	float: left;
+	padding: 2%;
+	background-color: #fff;
+	border-radius: 10px;
+	webkit-border-radius: 10px;
+	moz-border-radius: 10px;
+}
+
+.theimgsbar{
+	background-image: url("images/ali7.jpg");
+	background-position: center 55%;
+	width: 22%;
+	margin: 2% 0 0 2%;
+	float: left;
+	height: 280px;
+	padding: 2%;
+	background-color: #fff;
+	border-radius: 20px;
+	webkit-border-radius: 10px;
+	moz-border-radius: 10px;
+	margin-bottom: 10px;	
+
+}
+
+
+/*-----------------FOOTER--------------------*/
+
+footer{
+	width: 100%;
+	
+}
+
+.link{
+	margin: 10px auto;
+	width: 100%;
+	clear: both;
+	float: left;
+
+}
+.link nav {
+	background-color:#f58233;
+	border-radius: 10px;
+	webkit-border-radius: 10px;
+	moz-border-radius: 10px;
+
+}
+
+.link nav ul {
+	font-size: 20px;
+	text-align: center;
+	list-style: none;
+	margin: 0 auto;
+}
+
+.link nav ul li {
+	display: inline;
+}
+
+.link a:link, .link a:visited{
+    color: white;
+    padding: 5px  40px;
+    display: inline-block;
+ }
+
+.link a:hover, .link a:active{
+    color: white;
+    background-color: #8c8c8c;
+    text-shadow: 1px 1px #f58233;
+}
+
+
+
+/*--------------------HTML5-----------------------*/
+
+
+.post-img{
+	width: 100%;
+}
+
+figure {
+	margin: 25px 0;
+	font-size: 90%;
+	color: #999;
+}
+
+
+
+/*-----------------CSS3 FOR MOBILE--------------------*/
+
+@media screen and  (max-width: 375px){
+.body{
+	    width: 90%;	
+	    font-kerning: 90%;
+}
+
+#h1{
+	text-shadow: 1px  1px #000305;
+	text-align: center;
+	font-size: 160%;
+	margin: 0 auto;
+	margin-bottom: -30px;
+	margin-top: -60px;
+}
+
+/*--------MAIN CONTENT FOR MOBAILE G'S5-----------*/
+
+
+
+.mainheader nav ul {
+	font-size: 10px;
+	margin-left: -30px;
+}
+
+.mainheader a:link, .mainheader a:visited{
+    padding: 5px  5px;
+ }
+
+
+ /*---------MAIN CONTENT FOR MOBAILE G'S5 -----------*/
+
+.post-infot{
+	font-size: 90%;
+	color: #8c8c8c;
+	font-style: inherit;
+	margin-top: -15px;
+}
+
+.post-content{
+	display: block;
+}
+
+
+
+/*-----------------SIDE BAR FOR MOBAILE G'S5 --------------------*/
+
+.maincontent{
+	width: 100%;
+
+}
+
+
+.theSidebar{
+	width: 94%;	
+}
+
+.theimgsbar{
+	background-image: url("images/ali7.jpg");
+	background-position: center 55%;
+	width: 94%;
+}
+
+
+/*-----------------/*-----------------FOOTER--------------------*/
+
+footer{
+	width: 100%;
+	
+}
+
+.link{
+	margin: 10px auto;
+	width: 100%;
+	clear: both;
+	float: left;
+
+}
+.link nav {
+	background-color:#f58233;
+	border-radius: 10px;
+	webkit-border-radius: 10px;
+	moz-border-radius: 10px;
+
+}
+
+.link nav ul {
+	font-size: 20px;
+	text-align: center;
+	list-style: none;
+	margin: 0 auto;
+}
+
+.link nav ul li {
+	display: inline;
+}
+
+.link a:link, .link a:visited{
+    color: white;
+    padding: 5px  40px;
+    display: inline-block;
+ }
+
+.link a:hover, .link a:active{
+    color: white;
+    background-color: #8c8c8c;
+    text-shadow: 1px 1px #f58233;
+}--------------------*/
+
+footer{
+	width: 100%;
+	
+}
+
+.link{
+	margin: 10px auto;
+	width: 100%;
+	clear: both;
+	float: left;
+
+}
+.link nav {
+	background-color:#f58233;
+	border-radius: 10px;
+	webkit-border-radius: 10px;
+	moz-border-radius: 10px;
+
+}
+
+.link nav ul {
+	font-size: 20px;
+	text-align: center;
+	list-style: none;
+	margin: 0 auto;
+}
+
+.link nav ul li {
+	display: inline;
+}
+
+.link a:link, .link a:visited{
+    color: white;
+    padding: 5px  40px;
+    display: inline-block;
+ }
+
+.link a:hover, .link a:active{
+    color: white;
+    background-color: #8c8c8c;
+    text-shadow: 1px 1px #f58233;
+}
